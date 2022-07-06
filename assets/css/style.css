@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Radley:ital@0;1&display=swap");
+
+@font-face {
+  font-family: "Athene";
+  src: url("../fonts/Athene/fonts/Athene.eot");
+  src: local("â˜º"), url("../fonts/Athene/fonts/Athene.woff") format("woff"),
+    url("../fonts/Athene/fonts/Athene.ttf") format("truetype"),
+    url("../fonts/Athene/fonts/Athene.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*=======================HEADER====================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #efe8d7;
+  color: #042a5a;
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+  display: flex;
+  border-bottom: 2px solid #000;
+  padding-right: 10%;
+  padding-left: 10%;
+  justify-content: space-between;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+}
+
+.title1,
+.title2 {
+  font-size: 10em;
+  font-family: "Athene";
+}
+
+.title1 {
+  margin-top: 2%;
+  margin-left: 21%;
+  margin-right: 21%;
+  text-align: center;
+  border-bottom: 2px solid #042a5a;
+}
+
+.title2 {
+  margin-left: 21%;
+  padding-left: 4%;
+  margin-right: 21%;
+  position: relative;
+  border-bottom: 2px solid #042a5a;
+}
+
+.picture_container {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  margin-top: 2%;
+}
+
+.title2:after {
+  content: "";
+  height: 2px;
+  width: 196px;
+  background-color: #042a5a;
+  display: block;
+  position: absolute;
+  left: 57%;
+  top: calc(50% - 1px);
+}
+
+.title2:before {
+  content: "©";
+  font-family: "Radley", serif;
+  position: absolute;
+  left: 80%;
+}
+
+.title3 {
+  padding-top: 1.5%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  padding-right: 8%;
+}
+
+.title3 p:first-child {
+  font-size: 1.2em;
+  font-family: "Athene";
+}
+
+.title3 p:nth-child(2) {
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 0.3%;
+  margin-top: -0.1%;
+}
+
+/*==================================MAIN*=====================================*/
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+main section:first-child {
+  background-color: #f4c4c4;
+}
+
+.p01 {
+  padding-top: 6%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+
+.title {
+  font-size: 5em;
+  font-family: "Athene";
+}
+
+.table_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.firstOfAll {
+  width: 27%;
+  line-height: 2em;
+  margin-bottom: 3%;
+}
+
+.table_title {
+  border-bottom: 1px solid #282b29;
+  display: block;
+  padding-left: 21%;
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 1%;
+}
+
+.row_container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #282b29;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row_paragraph {
+  width: 21%;
+  font-size: 0.9em;
+  text-align: right;
+}
+
+.row_number {
+  padding-right: 3em;
+}
+
+.img_container {
+  padding-top: 5%;
+  display: flex;
+  justify-content: right;
+  margin-right: 4%;
+}
+
+.letsWork {
+  width: 6%;
+  padding-bottom: 5%;
+}
+
+/**================================SECTION2======================*/
+
+.section2 {
+  background-color: #deb873;
+  color: #7d2222;
+}
+
+.section2 .title {
+  font-size: 5em;
+}
+
+.section2 .title_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.section2 .title h1:nth-child(2) {
+  margin-left: 42%;
+}
+
+.section2 .title_container .p02 {
+  padding-top: 6%;
+  padding-bottom: 2%;
+  width: 7%;
+}
+
+.title02 {
+  text-align: right;
+  font-family: "Athene";
+}
+
+.everyWebsite {
+  width: 23%;
+  line-height: 2em;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+
+.titleNames_container {
+  font-size: 3.6em;
+  margin-left: 5%;
+  margin-top: 7%;
+  margin-right: -0.5%;
+  z-index: 1;
+  font-family: "Athene";
+}
+
+.titlePictue_container {
+  display: flex;
+  padding-bottom: 10%;
+}
+
+.marconatto {
+  margin-top: 7%;
+}
+
+.titleNames_container2 {
+  text-align: end;
+}
+
+.picture_container2 {
+  margin-left: 5%;
+}
+
+.titleNames_container3 {
+  text-align: left;
+}
+
+.titleNames_container4 {
+  text-align: right;
+}
+
+.picture_container4 {
+  margin-left: 5%;
+}
+
+/**================================SECTION2======================*/
+
+footer {
+  background-color: #d2d2d2;
+  color: #388883;
+}
+
+.p03 {
+  margin-left: 7%;
+  padding-top: 7%;
+}
+
+.title5 {
+  margin-top: 2%;
+}
+
+.nowThat {
+  width: 22%;
+  line-height: 2em;
+  margin-left: 30%;
+  font-size: 1.5em;
+}
+
+.linksList {
+  display: flex;
+  flex-direction: column;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.listContainer ul {
+  list-style-type: none;
+  line-height: 2.5em;
+  margin-right: 5.5%;
+  font-size: 1.2em;
+  margin-bottom: 3%;
+  text-align: right;
+}
+
+.listContainer ul a {
+  text-decoration: none;
+  color: #388883;
+}
